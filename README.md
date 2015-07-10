@@ -4,13 +4,13 @@
 
 Install go and Setup a GOPATH and go basic framework
 Download the mgo drivers to your gopath
- go get gopkg.in/mgo.v2
+*go get gopkg.in/mgo.v2
 
 Download the golang-shoutbox
- git clone git@github.com:pblaas/golang-shoutbox.git
+* git clone git@github.com:pblaas/golang-shoutbox.git
 
 Build the go code by entering the golang-shoutbox and typing
- go build
+*go build
 
 - Defaults
 
