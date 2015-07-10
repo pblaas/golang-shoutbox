@@ -127,12 +127,7 @@ func wcloudpage(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	//http.Handle("/input", http.FileServer(http.Dir("public/input")))
 	http.HandleFunc("/submit", Submitform)
-	//http.HandleFunc("/shouts", Mainpage)
-	//http.HandleFunc("/public/", func(w http.ResponseWriter, r *http.Request) {
-	//	http.ServeFile(w, r, r.URL.Path[1:])
-	//})
 	http.HandleFunc("/wcloud", wcloudpage)
 	http.HandleFunc("/", Mainpage)
 	fmt.Println("Server started!")
