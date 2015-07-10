@@ -7,7 +7,7 @@ Download the mgo drivers to your gopath
 - go get gopkg.in/mgo.v2
 
 Download the golang-shoutbox
-- git clone git@github.com:pblaas/golang-shoutbox.git
+- go get github.com/pblaas/golang-shoutbox
 
 Build the go code by entering the golang-shoutbox and typing
 - go build
